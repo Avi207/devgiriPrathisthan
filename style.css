@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.right-menu li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.right-menu li .fa {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-brand {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.header {
+    background: #f5f6fc;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    padding: 0 35px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+
+.navbar-toggler .fa {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* Devgiri-Heading trends--------- */
+
+.devgiri-trends {
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.devgiri-box {
+    margin: 0;
+}
+
+.title-style h2 {
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.title-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #0000ff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.title-style::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.title-style::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+
+/* Devgiri-cards ----------------*/
+
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ecf9ff;
+}
+
+body {
+    color: #272727;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 1rem;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.made_by {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+/* for small device---------------------------- */
+
+@media only screen and (max-width:980px) {
+    .navbar-brand img {
+        width: 60px;
+    }
+    .title-style h2 {
+        font-size: 25px;
+        padding-top: 45px;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .navbar-brand img {
+        width: 60px;
+    }
+    .title-style h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .navbar-brand img {
+        width: 60px;
+    }
+    .title-style h2 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+}
